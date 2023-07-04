@@ -7,7 +7,7 @@ function myAutoLoader($className) {
 
 // ensures correct pathing 
   if(strpos($url, 'includes') !== false) {
-    $root = '../classes';
+    $root = '../classes/';
   } else {
     $root = "classes/";
   }
